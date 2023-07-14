@@ -1,0 +1,88 @@
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <div class="container">
+    <a class="navbar-brand" href="" id="logo"><span>T</span>ravel</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span><i class="fa-solid fa-bars"></i></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/book">Book</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/package">Packages</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/service">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/gallery">Gallary</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/register">Registration</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/exclusive">Exculsive</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Deals
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+            <li><a class="dropdown-item" href="#">What to do</a></li>
+            <li><a class="dropdown-item" href="#">Destination Specialist</a></li>
+            <li><a class="dropdown-item" href="#">Tour Operator</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Plan your Trip
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+      <button (click)="opendialog()" class="btn btn-warning" type="button">Talk to us</button>
+    </div>
+  </div>
+</nav>
+<!-- Navbar End -->
+<router-outlet></router-outlet>
+
+<!-- Footer Start -->
+<footer id="footer">
+  <h1><span>T</span>ravel</h1>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus fugiat, ipsa quos nulla qui alias.</p>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus fugiat, ipsa quos nulla qui alias.</p>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus fugiat, ipsa quos nulla qui alias.</p>
+  <div class="social-links">
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-youtube"></i>
+    <i class="fa-brands fa-pinterest-p"></i>
+  </div>
+  <div class="credit">
+    <p>Designed By <a href="#"> PrasTravel</a></p>
+  </div>
+  <div class="copyright">
+    <p>&copy;Copyright PrasTravel. All Rights Reserved</p>
+  </div>
+</footer>
+<!-- Footer End -->
